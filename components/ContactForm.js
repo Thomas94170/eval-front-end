@@ -14,19 +14,19 @@ export default function ContactForm(){
                             <div className="form-bottom contact-form">
 			                    <form role="form" action="https://formspree.io/f/xrgjpkwe" method="POST">
 			                    	<div className="form-group text-center">
-			                    		<label className="sr-only" for="contact-email">Email</label>
+			                    		<label className="sr-only" htmlFor="contact-email">Email</label>
                                     <br />
 			                        	<input type="text" name="email" placeholder="Email..." className="contact-email form-control text-center" id="contact-email"/>
 			                        </div>
                                     <br />
 			                        <div className="form-group text-center">
-			                        	<label className="sr-only" for="contact-subject">Objet</label>
+			                        	<label className="sr-only" htmlFor="contact-subject">Objet</label>
                                         <br />
 			                        	<input type="text" name="subject" placeholder="Objet..." className="contact-subject form-control text-center" id="contact-subject"/>
 			                        </div>
                                     <br />
-			                        <div class="form-group text-center">
-			                        	<label className="sr-only" for="contact-message">Message</label>
+			                        <div className="form-group text-center">
+			                        	<label className="sr-only" htmlFor="contact-message">Message</label>
                                         <br />
 			                        	<textarea name="message" placeholder="Message..." className="contact-message form-control text-center" id="contact-message"></textarea>
 			                        </div>
