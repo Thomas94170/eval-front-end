@@ -9,7 +9,7 @@ export default function Galerie() {
     <>
       <Layout page='Galerie'>
       <br />
-      <h1 className='text-center text-info'>Ma Galerie</h1>
+      <h1 className='text-center text-info border-bottom border-info'>Ma Galerie</h1>
       <br />
       
     </Layout>

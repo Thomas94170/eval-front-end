@@ -10,7 +10,7 @@ export default function Contact() {
     <>
       <Layout page='Contact'>
       <br />
-      <h1 className='text-center text-info'>Contactez moi!</h1>
+      <h1 className='text-center text-info border-bottom border-info'>Contactez moi!</h1>
       <br />
       <br />
       <ContactForm/>

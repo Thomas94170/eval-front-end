@@ -9,7 +9,7 @@ export default function Tarif() {
     <>
       <Layout page='Tarif'>
       <br />
-      <h1 className='text-center text-info'>Tarifs et Prestations</h1>
+      <h1 className='text-center text-info border-bottom border-info'>Tarifs et Prestations</h1>
       <br />
       <div className='tarif'>
             <br />

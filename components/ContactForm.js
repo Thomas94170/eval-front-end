@@ -7,7 +7,8 @@ export default function ContactForm(){
             <div className="inner-bg">
                 <div className="container">
                     
-                    <div className="row bg-info bg-gradient">
+                    <div className="row p-3 mb-2 bg-light text-dark">
+                        <br />
                         <div className="col-12 col-sm-offset-3 form-box">
                         	
                             <div className="form-bottom contact-form">

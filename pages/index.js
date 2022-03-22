@@ -10,10 +10,10 @@ export default function Home() {
     
       <Layout page='Home'>
       <br />
-      <h1 className='text-center text-info'>CHARLES CANTIN PHOTOGRAPHE</h1>
+      <h1 className='text-center text-info border-bottom border-info'>CHARLES CANTIN PHOTOGRAPHE</h1>
       <br />
       <div className='container'>
-      <img src="home.jpg" alt="accueil" width='100%' height='auto'/>
+      <img src="home-cantin.png" alt="accueil" width='100%' height='auto'/>
       </div>
       <br />
       <br />
