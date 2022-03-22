@@ -2,8 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-family: "Hurricane", cursif;
+  font-family: "Krona One", sans-serif;
 }
 
 a {
@@ -13,4 +14,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: auto;
+}
+
+span {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Hurricane", cursif;
 }

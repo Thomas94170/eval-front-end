@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Hurricane";
+  src: url("../styles/font/Hurricane-Regular.ttf") format(ttf);
+}
+
+h1,
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+span {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
