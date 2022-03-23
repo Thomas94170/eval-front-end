@@ -18,7 +18,10 @@
     "yarn": "^1.22.18"
   },
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-react": "^7.16.7",
     "eslint": "8.11.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "frontmatter-markdown-loader": "^3.6.3"
   }
 }

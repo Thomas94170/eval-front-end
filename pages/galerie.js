@@ -11,6 +11,8 @@ export default function Galerie() {
       <br />
       <h1 className='text-center text-info border-bottom border-info'>Ma Galerie</h1>
       <br />
+      <br />
+     
       
     </Layout>
     

@@ -1,8 +1,8 @@
 export default function ContactForm(){
     return(
 
-        <>
-            <div className="top-content">
+      <>
+      <div className="top-content">
         	
             <div className="inner-bg">
                 <div className="container">
@@ -44,8 +44,10 @@ export default function ContactForm(){
             </div>
             
         </div>
-        </>
-    )
+      </> 
+    
+       
+)
 }
 
 
