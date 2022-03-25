@@ -7,6 +7,7 @@ sections:
 - type: document
   path: posts
   label: Posts
+  read_only: true
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
