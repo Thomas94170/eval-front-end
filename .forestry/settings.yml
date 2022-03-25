@@ -7,11 +7,6 @@ sections:
 - type: document
   path: posts
   label: Posts
-  match: "**/*"
-  read_only: true
-- type: document
-  path: posts
-  label: Posts
   read_only: true
 upload_dir: uploads
 public_path: "/uploads"
