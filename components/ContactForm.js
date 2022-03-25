@@ -33,7 +33,7 @@ export default function ContactForm(){
                                     <br />
                                     <br />
                                     <div className="d-flex justify-content-center">
-                                    <button type="submit" className="btn btn-success border border-white">Envoyer</button>
+                                    <button type="submit" className=""><img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png"/></button>
                                     </div>
 			                        <br />
 			                    </form>
