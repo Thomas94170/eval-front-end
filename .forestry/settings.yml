@@ -6,6 +6,15 @@ webhook_url:
 sections:
 - type: document
   path: posts
+  label: posts
+  match: "**/*"
+- type: directory
+  path: Categories
+  label: Categories
+  create: all
+  match: "**/*"
+- type: document
+  path: posts
   label: Posts
   read_only: true
 upload_dir: uploads

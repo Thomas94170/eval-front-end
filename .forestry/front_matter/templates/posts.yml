@@ -11,3 +11,5 @@ fields:
   type: image_gallery
   config: {}
   label: images
+pages:
+- Categories/Mariage.md
