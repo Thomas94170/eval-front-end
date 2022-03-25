@@ -1,4 +1,13 @@
 ---
 label: Posts
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: name
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
