@@ -13,7 +13,7 @@ export default function Galerie({res}) {
       {/* {JSON.stringify(res)} */}
       <br />
       <br />
-      <ul className="flex justify-around py-10">
+      <ul className="">
          {res.map((res) =>(
            <li key={res} className='relative hover:shadow-md p-8
            border border-blue-300 rounded-3xl bg-blue-100 md:w-auto flex-1 mx-5'>
