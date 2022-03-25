@@ -12,4 +12,5 @@ fields:
   config: {}
   label: images
 pages:
+- Categories/Bapteme.md
 - Categories/Mariage.md
