@@ -15,18 +15,31 @@ export default function Galerie({res}) {
       
       <br />
       <br />
-      <ul className="">
-         {res.map((res) =>(
-           <li key={res} className='relative hover:shadow-md p-8
-           border border-blue-300 rounded-3xl bg-blue-100 md:w-auto flex-1 mx-5'>
-             <div>{res.name}</div>
-             {/* <div>{res.img[0].formats.large.url}</div> */}
-             <img src={`http://localhost:1337`+res.img[0].formats.thumbnail.url} className="" alt={res.name} width ="300px" height= "300px"/>
-             
-             
-           </li>
-         ))}
-       </ul>
+      
+
+       <div className="container d-flex justify-content-evenly">
+            <div className=" row row-cols-1 row-cols-md-3 g-3 ">
+            {res.map(res =>(
+                
+            <div key ={res.id} > 
+                <div className="text-center">
+                    <div className="col">
+                        <div className="card bg-dark">
+                            <img src={`http://localhost:1337`+res.img[0].formats.medium.url} className="card-img-top" alt={res.name} width ="300" height= "300px"/>
+                            <div className="card-body">
+                                <h5 className="card-title text-info">{res.name}</h5>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+               
+              
+            </div>
+            ))}
+            </div>
+            </div>
       
     </Layout>
     
