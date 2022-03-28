@@ -15,6 +15,20 @@ export default function Galerie({res}) {
       
       <br />
       <br />
+
+      <nav className="navbar navbar-light bg-light">
+  <div className="container-fluid">
+    <form className="d-flex">
+      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button className="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<br />
+      <br />
+      <br />
+      <br />
       
 
        <div className="container d-flex justify-content-evenly">
@@ -27,8 +41,9 @@ export default function Galerie({res}) {
                         <div className="card bg-dark">
                             <img src={`http://localhost:1337`+res.img[0].formats.medium.url} className="card-img-top" alt={res.name} width ="300" height= "300px"/>
                             <div className="card-body">
-                                <h5 className="card-title text-info">{res.name}</h5>
-                                
+                              <h5 className="card-title text-info">{res.name}</h5>
+                              
+                              
                             </div>
                         </div>
                     </div>

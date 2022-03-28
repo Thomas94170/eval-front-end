@@ -1,4 +1,19 @@
 /* page d accueil */
+@font-face {
+  font-family: "Hurricane";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../styles/font/Hurricane-Regular.ttf) format("woff2");
+}
+
+@font-face {
+  font-family: "PermanentMarker";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../styles/font/PermanentMarker-Regular.ttf) format("woff2");
+}
 
 .container {
   height: 100%;
@@ -6,11 +21,16 @@
 }
 
 h1,
-h2 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+h2,
+h3,
+h4,
+h5 {
+  font-family: "PermanentMarker";
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
 }
 p {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
+  font-family: "PermanentMarker";
 }
 
 span {
