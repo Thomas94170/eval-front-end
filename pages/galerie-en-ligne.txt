@@ -1,0 +1,25 @@
+export const getStaticProps = async(context) =>{
+      const url = "https://bdd-charlescantin.herokuapp.com/photos"
+      const {data} = await axios.get(`${url}/photos`);
+      const photos = data.data
+    
+      return{
+        props:{data}
+      }
+    }
+
+
+    {data.map(photo =>(
+            <li key ={photo.id} className='
+                '> 
+              <div>
+                  <Image src={photo.img[0].formats.large.url} alt={photo.name}
+                    loader={myLoader}
+                    width={700}
+                    height={700}
+                    className=""/>
+              </div>
+              <p>{photo.name}</p>
+              <br />
+            </li>
+            ))}
