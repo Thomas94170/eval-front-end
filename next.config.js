@@ -1,13 +1,8 @@
 
 module.exports = {
-  webpack: (cfg) => {
-      cfg.module.rules.push(
-          {
-              test: /\.md$/,
-              loader: 'frontmatter-markdown-loader',
-              options: { mode: ['react-component'] }
-          }
-      )
-      return cfg;
-  }
-}
+    images: {
+      deviceSizes: [320, 420, 768, 1024, 1200],
+      loader: "default",
+      domains: ["res.cloudinary.com"],
+    },
+  };
