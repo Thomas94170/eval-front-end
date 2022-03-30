@@ -1,4 +1,4 @@
-/* page d accueil */
+/* page d accueil et css communs*/
 @font-face {
   font-family: "Hurricane";
   font-style: normal;
@@ -74,3 +74,13 @@ span {
 }
 
 /* Page d 'accueil */
+
+/* Page galerie.js */
+
+.categories {
+  font-family: "PermanentMarker";
+}
+
+.btn {
+  color: skyblue;
+}

@@ -3,8 +3,11 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Layout } from '../components/Layout'
 import { Footer } from '../components/Footer'
+import { useState } from 'react'
 
 export default function Galerie({res}) {
+    const [photos, setPhotos] = useState(res);
+    const [search, setSearch] = useState("");
   
   return (
     <>
@@ -16,14 +19,49 @@ export default function Galerie({res}) {
       <br />
       <br />
 
-      <nav className="navbar navbar-light bg-light">
-  <div className="container-fluid">
-    <form className="d-flex">
-      <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-      <button className="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+      <div className= ' row row-cols-1 row-cols-md-3 g-3 '>   
+                    <br /><br />
+                    <div className=' container d-flex justify-content-around '>
+                        <ul className='container d-flex justify-content-around list-unstyled categories'>
+                             <li>
+                             <input className=" form-check-input" type="radio" value="Mariage" id="Mariage"/>
+                             <label className="form-check-label" htmlFor="Mariage">
+                             Mariage
+                             </label>
+                             </li>
+                             <li>
+                             <input className="form-check-input" type="radio" value="Grossesse" id="Grossesse" />
+                             <label className="form-check-label" htmlFor="Grossesse">
+                             </label>
+                             Grossesse
+                             </li>
+                             <li>
+                             <input className="form-check-input" type="radio" value="Baptême" id="Baptême"/>
+                             <label className="form-check-label" htmlFor="Baptême">
+                             Baptême
+                             </label>
+                             </li>
+                             <li>
+                             <input className="form-check-input" type="radio" value="Couple" id="Couple"/>
+                             <label className="form-check-label" htmlFor="Couple">
+                             Couple
+                             </label>
+                             </li>
+                             <li>
+                             <input className="form-check-input" type="radio" value="Famille" id="Famille"/>
+                             <label className="form-check-label" htmlFor="Famille">
+                             Famille
+                             </label>
+                             </li>  
+                             <li>
+                             <input className="form-check-input" type="radio" name="Bébé" id="Bébé"/>
+                             <label className="form-check-labe" htmlFor="Bébé">
+                             Bébé
+                             </label>
+                             </li>            
+                        </ul>            
+                    </div>
+                </div>
 
 <br />
       <br />
