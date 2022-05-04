@@ -15,11 +15,11 @@ export async function getStaticProps(context) {
      * SOLUTION 2:
      * - request each time we select a category ( todo -> new controller )
      */
-    const res = await fetch("http://localhost:1337/photos").then((res) =>
-      res.json()
-    );
+    const res = await fetch(
+      "https://bdd-charlescantin.herokuapp.com/photos"
+    ).then((res) => res.json());
 
-    // add filter
+    // add filter http://localhost:1337/photos
 
     return {
       props: { res },
@@ -215,11 +215,9 @@ export default function Galerie({ res }) {
                 <div className="text-center">
                   <div className="col">
                     <div className="card bg-dark">
+                      {/* `http://localhost:1337` + */}
                       <img
-                        src={
-                          `http://localhost:1337` +
-                          photo.img[0].formats.medium.url
-                        }
+                        src={photo.img[0].formats.medium.url}
                         className="card-img-top"
                         alt={photo.name}
                         width="300"
